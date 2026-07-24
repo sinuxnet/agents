@@ -10,7 +10,8 @@
     {
       "name": "component-eval-architect",
       "source": "plugins/component-eval-architect",
-      "description": "Component Evaluation Architect. Builds Evaluation Harnesses (MVE) that isolate one Target Component for controlled comparison. Use when evaluating embeddings, LLMs, caches, routers, UI strategies, ..."
+      "description": "Component Evaluation Architect. Builds Evaluation Harnesses (MVE) that isolate one Target Component for controlled comparison. Use when evaluating embeddings, LLMs, caches, routers, UI strategies, ...",
+      "logo": "plugins/component-eval-architect/assets/logo.svg"
     }
   ]
 }

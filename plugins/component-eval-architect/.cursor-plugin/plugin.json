@@ -12,5 +12,6 @@
     "evaluation",
     "harness"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "logo": "assets/logo.svg"
 }

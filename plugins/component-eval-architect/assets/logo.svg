@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Component Evaluation Architect">
+  <rect width="128" height="128" rx="24" fill="#0F172A"/>
+  <!-- layered components: Support dim, Target bright -->
+  <rect x="24" y="22" width="80" height="14" rx="3" fill="#334155"/>
+  <rect x="24" y="42" width="80" height="14" rx="3" fill="#475569"/>
+  <rect x="24" y="62" width="80" height="20" rx="4" fill="#38BDF8"/>
+  <rect x="24" y="90" width="80" height="14" rx="3" fill="#334155"/>
+  <!-- metric ticks on target -->
+  <circle cx="40" cy="72" r="3" fill="#0F172A"/>
+  <circle cx="56" cy="72" r="3" fill="#0F172A"/>
+  <circle cx="72" cy="72" r="3" fill="#0F172A"/>
+</svg>
