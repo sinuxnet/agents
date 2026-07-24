@@ -1,36 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SINUXNET">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SINUXNET — Sina · UX · Network">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
-  <rect x="56" y="112" width="18" height="288" rx="9" fill="#22D3EE"/>
 
-  <!-- SINUX -->
-  <g fill="#F8FAFC" transform="translate(100 150)">
-    <!-- S -->
-    <path d="M8 8h56v24H32v12h32v56H8V76h32V64H8V8z"/>
-    <!-- I -->
-    <rect x="76" y="8" width="24" height="88"/>
-    <!-- N -->
-    <path d="M116 8h24l36 56V8h24v88h-24l-36-56v56h-24V8z"/>
-    <!-- U -->
-    <path d="M216 8h24v52c0 8 6 16 16 16s16-8 16-16V8h24v52c0 24-18 40-40 40s-40-16-40-40V8z"/>
-    <!-- X -->
-    <path d="M308 8h28l20 28 20-28h28l-34 44 34 44h-28l-20-28-20 28h-28l34-44-34-44z"/>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- terminal / unix rail -->
+  <rect x="52" y="108" width="16" height="296" rx="8" fill="#22D3EE"/>
+
+  <!--
+    Etymology as color:
+    SIN  — from Sina (identity)     → white
+    UX   — user experience          → cyan
+    NET  — network                  → steel
+    Compound like Stuxnet; craft like Linus+Unix→Linux
+  -->
+  <g transform="translate(92 168)">
+    <!-- SIN -->
+    <g fill="#F8FAFC">
+      <!-- S -->
+      <path d="M0 0h44v18H18v10h26v44H0V54h26V44H0V0z"/>
+      <!-- I -->
+      <rect x="56" y="0" width="18" height="72"/>
+      <!-- N -->
+      <path d="M88 0h18l28 44V0h18v72h-18L106 28v44H88V0z"/>
+    </g>
+
+    <!-- UX (emphasis) -->
+    <g fill="#22D3EE" transform="translate(168 0)">
+      <!-- U -->
+      <path d="M0 0h18v42c0 7 5 14 14 14s14-7 14-14V0h18v42c0 20-15 34-32 34S0 62 0 42V0z"/>
+      <!-- X -->
+      <path d="M72 0h22l16 22 16-22h22L124 36l24 36h-22L110 50 94 72H72l24-36L72 0z"/>
+    </g>
   </g>
 
   <!-- NET -->
-  <g fill="#22D3EE" transform="translate(100 290)">
+  <g fill="#94A3B8" transform="translate(92 292)">
     <!-- N -->
-    <path d="M0 0h24l36 56V0h24v88H60L24 32v56H0V0z"/>
+    <path d="M0 0h18l28 44V0h18v72H46L18 28v44H0V0z"/>
     <!-- E -->
-    <path d="M100 0h72v24h-48v12h40v24h-40v12h52v24h-76V0z"/>
+    <path d="M80 0h58v18H98v10h32v18H98v10h42v18H80V0z"/>
     <!-- T -->
-    <path d="M188 0h84v24h-30v64h-24V24h-30V0z"/>
+    <path d="M154 0h68v18h-25v54h-18V18h-25V0z"/>
   </g>
 
-  <rect x="100" y="408" width="180" height="12" rx="6" fill="#334155"/>
+  <!-- network: three linked nodes (net) -->
+  <g fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round">
+    <circle cx="380" cy="400" r="7" fill="#22D3EE" stroke="none"/>
+    <circle cx="420" cy="372" r="7" fill="#38BDF8" stroke="none"/>
+    <circle cx="448" cy="416" r="7" fill="#67E8F9" stroke="none"/>
+    <path d="M386 396l28-18M426 378l16 30"/>
+  </g>
+
+  <!-- micro legend (readable at large size; collapses as texture at favicon) -->
+  <text x="92" y="420"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="14" letter-spacing="0.28em" fill="#475569">SINA · UX · NET</text>
 </svg>
