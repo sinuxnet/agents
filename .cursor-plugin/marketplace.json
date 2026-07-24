@@ -1,0 +1,16 @@
+{
+  "name": "sinuxnet-agents",
+  "owner": {
+    "name": "sinuxnet"
+  },
+  "metadata": {
+    "description": "Cursor/Claude-compatible subagent personas by sinuxnet"
+  },
+  "plugins": [
+    {
+      "name": "component-eval-architect",
+      "source": "plugins/component-eval-architect",
+      "description": "Component Evaluation Architect. Builds Evaluation Harnesses (MVE) that isolate one Target Component for controlled comparison. Use when evaluating embeddings, LLMs, caches, routers, UI strategies, ..."
+    }
+  ]
+}

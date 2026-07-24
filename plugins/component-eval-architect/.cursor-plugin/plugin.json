@@ -1,0 +1,16 @@
+{
+  "name": "component-eval-architect",
+  "version": "0.1.0",
+  "description": "Component Evaluation Architect. Builds Evaluation Harnesses (MVE) that isolate one Target Component for controlled comparison. Use when evaluating embeddings, LLMs, caches, routers, UI strategies, ...",
+  "author": {
+    "name": "sinuxnet"
+  },
+  "keywords": [
+    "subagent",
+    "component-eval-architect",
+    "mve",
+    "evaluation",
+    "harness"
+  ],
+  "license": "MIT"
+}
